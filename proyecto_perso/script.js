@@ -181,8 +181,8 @@ $(document).ready(function () {
   // 8. MENÚ HAMBURGUESA
   // =====================================================
   $('#hamburguesa').click(function () {
-    $('#menu').toggleClass('show');
-  });
+  $('#menu').slideToggle();
+});
   $('#menu a').click(function () {
     $('#menu').removeClass('show');
   });
